@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Chrome with X Space Muter",
+      "type": "chrome",
+      "request": "launch",
+      "url": "https://x.com/home",
+      "runtimeArgs": [
+        "--load-extension=${workspaceFolder}"
+      ]
+    }
+  ]
+}
